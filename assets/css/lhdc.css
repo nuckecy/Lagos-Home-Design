@@ -530,6 +530,7 @@ body {
   margin-bottom: 60px;
   padding-bottom: 100px;
   color: #0d450d;
+  font-size: 12px;
 }
 
 .brief-grid {
@@ -689,6 +690,14 @@ body {
   box-shadow: 0 0 5px 0 #bababa;
 }
 
+.form-block {
+  margin-bottom: -20px;
+}
+
+.form-block.exp {
+  margin-bottom: 0px;
+}
+
 .grid-5 {
   -ms-grid-rows: auto auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto;
@@ -705,6 +714,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
   padding-left: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -819,6 +829,39 @@ body {
 
 .link-block-2 {
   text-decoration: none;
+}
+
+.membership {
+  margin-top: 10px;
+}
+
+.heading-12 {
+  font-size: 12px;
+}
+
+.message {
+  display: none;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: hsla(358.3333333333333, 81.08%, 43.53%, 1.00);
+}
+
+.text-block-16 {
+  color: #fff;
+  text-transform: none;
+}
+
+.heading-13 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.heading-14 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
 }
 
 @media (max-width: 991px) {
@@ -1663,6 +1706,11 @@ body {
   grid-row-end: 3;
 }
 
+#w-node-cd3a6fb6c82f-8ed4fc65 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
 @media screen and (max-width: 767px) {
   #w-node-cd3a6fb6c82f-8ed4fc65 {
     -ms-grid-column-align: end;
@@ -1932,6 +1980,17 @@ body {
   grid-row-end: 2;
 }
 
+#w-node-51a5688ffdbe-8ed4fc65 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 5;
+  grid-row-start: 5;
+  -ms-grid-row-span: 1;
+  grid-row-end: 6;
+}
+
 #w-node-240ec44b5b4a-8ed4fc65 {
   -ms-grid-column: 2;
   grid-column-start: 2;
@@ -1952,15 +2011,4 @@ body {
   grid-row-start: 6;
   -ms-grid-row-span: 1;
   grid-row-end: 7;
-}
-
-#w-node-d3fc3df15df5-8ed4fc65 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 2;
-  grid-column-end: 3;
-  -ms-grid-row: 5;
-  grid-row-start: 5;
-  -ms-grid-row-span: 1;
-  grid-row-end: 6;
 }
